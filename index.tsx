@@ -74,8 +74,6 @@ export default function ShoppingCartApp() {
         alert(`已將 ${quantity} 個 ${productToAdd.title} 加入購物車！`);
     };
 
-    const handleAddOrUpdateCartItem = setItem(products)
-
     // POST 結帳 FormData-based Form Submission
     const onCheckoutSubmit = async () => {
     };
@@ -117,3 +115,4 @@ export default function ShoppingCartApp() {
         </div>
     );
 }
+
